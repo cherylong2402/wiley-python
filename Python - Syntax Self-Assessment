@@ -1,0 +1,11 @@
+#Cheryl Ong
+#08/08/2022
+
+Firstname=input("Enter your first name:")
+Lastname=input("Enter your last name:")
+Number=int(input("Enter your phone number:"))
+Year=int(input("Enter the year you were born in:"))
+print("First Name:",Firstname)
+print("Last Name:",Lastname)
+print("Phone Number:",Number)
+print("Year Born:",Year)
