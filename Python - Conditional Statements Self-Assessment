@@ -1,0 +1,17 @@
+#Cheryl Ong
+#08/08/2022
+
+
+name=input("What's your last name?").upper()
+if name[0]=="A" or name[0]=="B" or name[0]=="C" or name[0]=="D":
+    print ("Aha!You're on the team Red Dragons!")
+elif name[0]=="E" or name[0]=="F" or name[0]=="G" or name[0]=="H":
+    print("Aha!You're on the team Dark Wizards!")
+elif name[0]=="I" or name[0]=="J" or name[0]=="K" or name[0]=="L":
+    print("Aha!You're on the team Moving Castles!")
+elif name[0]=="M" or name[0]=="N" or name[0]=="O" or name[0]=="P":
+    print("Aha!You're on the team Golden Snitches!")
+elif name[0]=="Q" or name[0]=="R" or name[0]=="S" or name[0]=="T":
+    print("Aha!You're on the team Night Guards!")
+else:
+    print("Aha!You're on the team Black Holes!")
