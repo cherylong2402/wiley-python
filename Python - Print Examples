@@ -1,0 +1,37 @@
+#Write a simple program where you need to have two variables(string) anf you need to append both the variables and print it
+
+animal="dogs"
+food="nuggets"
+animal="dolphins"
+food="pasta"
+print("i like",animal, food)
+
+#Task the user to enter a number over 100 and then enter a number under 10 and tell them how many times the smaller number goes into the larger number
+Number1=int(input("Enter a number above 100:"))
+Number2=int(input("Enter a number below 10:"))
+Result = Number1/Number2
+print("The smaller number goes into the bigger number by",Result)
+
+
+#Write a program that will ask for a number of days and then will show how many hours,minutes and seconds are in that number of days
+Day=int(input("Enter number of days:"))
+Hours=Day*24
+Minutes=Day*24*60
+Seconds=Day*24*60*60
+print(Day,"Days has",Hours,"Hours",Minutes,"Minutes",Seconds,"Seconds")
+
+
+##Ask the user to enter 1, 2 or 3. If they enter a 1, display the message “Thank you”, if they enter a 2, display “Well done”, if they enter a 3, display “Correct”. If
+they enter anything else, display “Error message”.
+Number=int(input("Enter value 1 or 2 or 3:"))
+if Number==1: 
+    print("Well Done")
+elif Number==2:
+    print("Thank You")
+elif Number==3:
+    print("Correct")
+else:
+    print("Error message")
+    
+    
+ 
