@@ -1,0 +1,143 @@
+#Activity 1
+Number=(input("Enter an integer:"))
+print(type(Number))
+IntegerNumber=int(Number)
+print("The value is", IntegerNumber, "with type",type(IntegerNumber))
+IntegerNumber=(input("Enter the integer again:"))
+
+#Activity 2
+V=(float(input("Enter value:"))
+P=float(input("Enter initial deposit:"))
+r=float(input("Enter interest rate as a fraction (eg 0.05):"))
+n=int(input("Enter the number of times per year interest is calculated:"))
+t=int(input("Enter the number of years since the initial deposit:"))
+
+V = P(1 + r/n)^nt
+print (V)
+
+#Activity 3
+principal=input(float("Enter principal amount:"))
+rate=float(input("Enter the rate of interest:"))
+days=int(input("Enter the number of days for a loan:"))
+interest = principal * rate * days / 365
+print(interest)
+
+#Activity 4
+Purchasetotal=float(input("Enter the purchase total"))
+Salestaxrate=float(input("Enter the sales tax rate"))
+Total=Purchasetotal+(Purchasetotal*Salestaxrate)
+print ("The total price is",Total)
+
+#Activity 5
+a = 0
+b = 1
+
+if a < b:
+  print ("a < b = TRUE")
+
+if a+b == 1:
+  print ("a+b==1 = TRUE")
+
+if b > a:
+  print ("b > a = TRUE")
+  
+if a < b:
+  print("a > b =FALSE")
+  
+if a!=b :
+  print ("a == b= FALSE")
+  
+if b > a:
+  print ("b < a = FALSE")
+
+#Activity 6
+first = int(input("Input a number: "))
+second = int(input("Input another number: "))
+
+if first > second:
+    print(first, " is greater than ", second)
+elif first < second:
+    print(second ," is greater than " ,first)
+else:
+    print("They are the same number!")
+
+#Activity 7
+n1=int(input("Enter an integer:"))
+n2=int(input("Enter an integer:"))
+n3=int(input("Enter an integer:"))
+n4=int(input("Enter an integer:"))
+n5=int(input("Enter an integer:"))
+product=n1*n2*n3*n4*n5
+average=(n1+n2+n3+n4+n5)/5
+sum=n1+n2+n3+n4+n5
+print("Values you entered:",n1,n2,n3,n4,n5)
+print("Product of the values:",product)
+print("Average of the values:",average)
+print("Sum of the values:",sum)
+
+#Activity 8
+Number=int(input("Enter a number:"))
+BooleanNumber=bool(Number)
+BinaryEquivalent=bin(Number)
+SquareRoot=Number**0.5
+
+print("You selected",Number)
+print("The boolean of your number is",BooleanNumber)
+print("The binary equivalent of your number is", BinaryEquivalent)
+print("The square root of your number is",SquareRoot)
+
+#Activity 9
+Q1=input("Banana is purple(TRUE/FALSE)")
+Q2=input("Elephant is an animal")
+if Q1=="FALSE":
+    print("Q1 is correct,you answered FALSE")
+if Q2=="TRUE":
+    print("Q2 is correct, you answered TRUE")
+
+#Activity 10
+Number=21
+Name="New Beach"
+Type="Road"
+print("Full Address is",Number,Name,Type)
+print("The House number is",Number)
+print("The street name is",Name,Type)
+
+#Activity 11
+firstname=Cheryl 
+lastname=Ong
+streetaddress=21 New Beach Road
+city=Sydney
+state=Australia
+zip=10021
+phonenumber=93804220
+emailaddress=cherylong2013@gmail.com
+
+....
+
+print("Your contact details are as follows",firstname,lastname,street address,city,state,zip,phonenumber,emailaddress)
+
+#Activity 12
+firstname=input("Enter first name")
+lastname=input("Enter last name") 
+streetaddress=input("Enter street address")
+city=input("Enter city")
+state=input("Enter state")
+zip=input("Enter zip")
+phonenumber=input("Enter phone number")
+emailaddress=input("Enter email address")
+
+print("Your contact details are as follows",firstname,lastname,street address,city,state,zip,phonenumber,emailaddress)
+
+#Activity 13
+firstname=input("Enter first name")
+lastname=input("Enter last name") 
+streetaddress=input("Enter street address")
+city=input("Enter city")
+state=input("Enter state")
+zip=input("Enter zip")
+phonenumber=input("Enter phone number")
+emailaddress=input("Enter email address")
+
+print("Your contact details are as follows",firstname,lastname,street address,city,state,zip,phonenumber,emailaddress)
+
+...
