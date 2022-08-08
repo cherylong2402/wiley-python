@@ -1,0 +1,20 @@
+#Cheryl Ong
+#08/08/2022
+
+
+Firstname=input("Enter your first name:")
+Firstnamecapitalize=Firstname.capitalize()
+Lastname=input("Enter your last name:")
+Lastnamecapitalize=Lastname.capitalize()
+City=input("Enter the city where you live:")
+Citycapitalize=City.capitalize()
+HourlyWage=int(input("Enter you hourly wage:"))
+Hours=int(input("Enter the number of hours you work each week:"))
+Week=HourlyWage*Hours
+Month=HourlyWage*Hours*4
+Year=HourlyWage*Hours*4*365
+
+print("Hi", Firstnamecapitalize,Lastnamecapitalize, "How are you?")
+print("I hope the weather is nice in", Citycapitalize)
+print("Based on the information you provided, you earn", Week,"dollars per week,approximately",Month,
+      "dollars per month, and", Year, "dollars per year")
