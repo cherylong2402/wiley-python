@@ -1,0 +1,40 @@
+#Cheryl Ong
+#08/08/2022
+
+
+size = input("What cup size of coffee do you want?(small/medium/large").lower()
+kind = input("What kind of coffee do you want?(brewed/espresso/cold brew)").lower()
+flavor = input("What flavoring do you want?(none/hazelnut/vanilla/caramel").lower()
+
+print("You asked for a",size, "cup of", kind,"coffee with",flavor,"on top")
+
+price = 0.00
+if size == "small":
+    price = 2
+elif size == "medium":
+    price = 3
+elif size == "large":
+    price = 4
+else:
+    print("Unknown Size")
+
+if kind == "brewed":
+    price = 0
+elif kind == "espresso":
+    price = 0.5
+elif kind =="cold brew":
+    price = 1
+else:
+    print("Unknown Type of Coffee")
+
+if flavor == "none":
+    price = 0
+elif flavor == "hazelnut" or flavor == "vanilla" or flavor == "caramel":
+    price += 1
+else:
+    print("Unknown Flavoring ")
+
+
+tipprice = price*0.15 
+print("Your coffee costs",price)
+print("Your coffee with tip included costs",tipprice)
