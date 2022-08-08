@@ -1,0 +1,64 @@
+#Activity 1
+Money=int(input("How much money do you have?:"))
+if Money>=20:
+    print("You're rich!")
+elif Money<20:
+    print("You're broke!")
+
+
+#Activity 2
+IF-IF
+Cat=input("Do you own any cats?(Yes/No)")
+Catcapitalize=Cat.capitalize()
+Dog=input("Do you own any dogs?(Yes/No)")
+Dogcapitalize=Dog.capitalize()
+if Catcapitalize=="Yes" and Dogcapitalize=="Yes":
+    print("You must really love pets!")
+if Catcapitalize=="N" or  Dogcapitalize=="No":
+    print ("Maybe you need more pets.")
+
+IF-ELSE
+Cat=input("Do you own any cats?(Yes/No)")
+Catcapitalize=Cat.capitalize()
+Dog=input("Do you own any dogs?(Yes/No)")
+Dogcapitalize=Dog.capitalize()
+if Catcapitalize=="Yes" and Dogcapitalize=="Yes":
+    print("You must really love pets!")
+else:
+    print("Maybe you need more pets.")
+
+
+#Activity 3
+Q1=input("Banana is purple(TRUE/FALSE)")
+Q2=input("Elephant is an animal")
+if Q1=="FALSE":
+    print("Q1 is correct,you answered FALSE")
+if Q2=="TRUE":
+    print("Q2 is correct, you answered TRUE")
+
+
+#Activity 4
+season=input("What season is it?").lower()
+if season=="fall":
+    print("I bet the leaves are pretty there!")
+elif season=="winter":
+    print("I hope you're ready for snow!")
+elif season=="spring":
+    print("I can smell the flowers!")
+elif season=="summer":
+    print("Make sure your AC is working!")
+else:
+    print ("I don't recognize that season.")
+    
+    
+season=input("What season is it?").lower()
+if season=="fall"or season=="Autumn":
+    print("I bet the leaves are pretty there!")
+elif season=="winter":
+    print("I hope you're ready for snow!")
+elif season=="spring":
+    print("I can smell the flowers!")
+elif season=="summer":
+    print("Make sure your AC is working!")
+else:
+    print ("I don't recognize that season.")
