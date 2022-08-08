@@ -1,0 +1,30 @@
+Activity 1
+#1
+print ("Python is fun!")
+
+#2
+print("Python is fun","Python is also easy")
+
+#3
+print;
+("Python is fun!")
+
+#4
+firstname = "Rebecca"
+lastname = "Roberts" 
+print(firstname)
+print(lastname)
+
+Activity 2
+#1
+output = "I love Python!"
+print(output)
+
+#2
+print("Python is fun!")
+print,("Python is also easy!")
+
+Activity 3
+Bornstate=input("Enter state which you were born in:")
+Livestate=input("Enter state which you live in now:")
+print("The state you were born in is",Bornstate,"and the state you live in now is",Livestate)
