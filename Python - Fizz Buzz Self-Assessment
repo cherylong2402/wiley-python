@@ -1,1 +1,16 @@
+#Cheryl Ong
+#10/08/2022
 
+
+num=int(input("How many fizzing and buzzing units do you need in your life?"))
+for i in range(0,num+1):
+    if i>0:
+        if i%3==0:
+            print("fizz")
+            if i%5==0:
+                print("buzz")
+                if i%3==0 and i%5==0:
+                    print ("fizz buzz")
+        else:
+            print(i)
+print("TRADITION!!")
