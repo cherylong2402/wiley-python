@@ -1,1 +1,45 @@
+#Q1
 
+
+
+#Q2
+
+
+
+
+#Q3
+
+
+
+
+
+#Q4
+
+'''l = ['iker1','iker2','iker3','iker4','iker5','iker6','iker7','iker8']
+x = input('Input a String: ')
+y = input('Input a new String: ')
+index = l.index(x)
+l[index] = y
+print(l)'''
+
+#Q5
+name = ('Cheryl','Ong')
+prof = ('DSA',)
+add = ('Pasir Ris',)
+prev = ('nil',)
+new = name + prof + add + prev
+
+#output -> ('Cheryl', 'Ong', 'DSA', 'Pasir Ris', 'nil')
+
+#Q6 - continuation from question 5
+print(new)
+tup = ()
+x = input('Enter value that should be changed: ')
+y = input('Enter updated value: ')
+index = new.index(x)
+for i in range(len(new)):
+    if i != index:
+        tup += (new[i],)
+    else:
+        tup += (y,)
+print(tup)
