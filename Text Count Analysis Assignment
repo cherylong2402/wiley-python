@@ -58,7 +58,6 @@ for s in words:
     clean = s
     if len(clean) <= 1:
         w_clean.append(clean)
-        continue
     for p in punctuation_list:
         if p in clean:
             clean = clean.replace(p,"")
@@ -74,7 +73,7 @@ for s in w_clean:
 
 wordset = set(w_clean)
 
-unique = len(wordset)
+distinct = len(wordset)
 print(word_freq)
-print("The number of unique words is:", unique)
+print("The number of distinct words is:", distinct)
 print("The total number of words is:",len(w_clean))
