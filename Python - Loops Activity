@@ -1,0 +1,106 @@
+#Acitivity 1
+fruit_list = ["apple", "banana", "cherry", "gooseberry","kumquat", "orange", "pineapple"]
+for i in fruit_list:
+    print(i)
+
+#Acitivity 2
+Ex=input("Enter a string:")
+for i in Ex:
+  print (i)
+
+#Acitivity 3
+Ex='Hello'
+count=0
+for i in Ex:
+    count+=1
+    
+print(count)
+
+#Acitivity 4
+list = ["a", "bc", "rye", "hello", "c", ""]
+new=[]
+for i in range(len(list)):
+  if len(list[i])>2:
+    new+=[list[i]]
+print(new)
+
+#Acitivity 5
+for i in range(100,1001):
+    if i%50==0:
+        print(i)
+        
+while i>100 and i<=1000:
+    if i%50==0:
+        print(i)
+
+#Acitivity 6
+list=range(101)
+Sum=sum(list)
+print(Sum)
+
+#Acitivity 7
+import math
+Num=int(input("Enter a number:"))
+Fac=math.factorial(Num)
+print(Fac)
+
+#Acitivity 8
+
+
+#Acitivity 9
+list=[]
+while True:
+    ans=input("Enter a number:")
+    list.append(ans)
+    if ans=="Quit".lower():
+        newlist=list[:-1]
+        for i in range(0,len(newlist)):
+            newlist[i]=int(newlist[i])
+        print(newlist)
+        Sum=sum(newlist)
+        print("Sum of numbers is");print (Sum)
+        break
+
+#Acitivity 10
+num=int(input("Enter an integer value:"))
+for i in range (0,100):
+    print (num**2 * (i))
+
+#Acitivity 11
+lower=0
+upper=100
+for num in range(lower,upper+1):
+    if num>1:
+        for i in range(2,num):
+            if (num%i)==0:
+                break
+        else:
+            print(num)
+
+#Acitivity 12
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
+while num2:
+    num1, num2 = num2, num1 % num2
+print(num1)
+
+#Acitivity 13
+
+
+#Acitivity 14
+x=int(input("Enter first number:"))
+y=int(input("Enter second number:"))
+def lcm(x, y):
+    if x > y:
+        greater = x
+    else:
+        greater = y
+while True:
+       if ((greater % x == 0) and (greater % y == 0)):
+            lcm = greater
+            break
+            greater += 1
+return lcm
+
+#Acitivity 15
+
