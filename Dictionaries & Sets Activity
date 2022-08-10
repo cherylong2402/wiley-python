@@ -1,1 +1,72 @@
+#Activity 1
+dictionary = {"hello":4,"world":4,"I":1,"am":2,"Martha":3}
+print (sum(dictionary.values()))
 
+#Activity 2
+dictionary = {"hello":4,"world":4,"I":1,"am":2,"Martha":3}
+print (min(dictionary.values()))
+print (max(dictionary.values()))
+
+#Activity 3
+set = {7,3,5,8,11}
+print(sum(set))
+
+#Activity 4
+set = {7,3,5,8,11}
+print(min(set))
+print(max(set))
+
+#Activity 5
+storage = {
+    "cupboard" : ["spices", "flour", "sugar"],
+    "drawer" : ["fork", "knife", "spoon"],
+    "fridge" : ["butter", "milk", "cheese"],
+    "emergency jar" : 150
+}
+storage["freezer"]=["ice cubes", "ice cream", "pepperoni pizza"]
+print (storage)
+..
+storage["fridge"]=["cream"]
+..
+..
+
+#Activity 6
+shopping_list={
+"milk" : 4,
+"butter" : 2,
+"crackers" : 1.5,
+"rice" : 2.25,
+"spaghetti" : 1.75,
+"dish soap": 3.25
+}
+for key , value in shopping_list.items():
+    print(key,':',value)
+    
+total_value=sum(shopping_list.values())
+print("Total cost of your items is");print(total_value)
+
+
+#Activity 7
+price={
+"milk" : 4,
+"butter" : 2,
+"crackers" : 1.5,
+"rice" : 2.25,
+"spaghetti" : 1.75,
+"dish soap": 3.25
+}
+
+quantity={
+"milk" : 1,
+"butter" : 1,
+"crackers" : 3,
+"rice" : 2,
+"spaghetti" : 5,
+"dish soap": 1
+}
+
+total = 0
+for key in price:
+    value = price[key] * quantity[key]
+    total = total + value
+print (total) 
