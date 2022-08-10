@@ -1,26 +1,34 @@
 #Q1
-
-
+x = input('Name: ')
+y = input('Age: ')
+z = input('Occupation: ')
+zz = input('Address: ')
+l = [x,y,z,zz]
+#print(l)
+#output -> ['cheryl', '22', 'dsa', 'pasir ris']
 
 #Q2
-
-
-
+print(l)
+new1 = input('Gender: ')
+new2 = input('Cute: ')
+new3 = input('Funky level: ')
+l += new1, new2, new3
+print(l)
+#output -> ['cheryl', '22', 'dsa', 'pasir ris', 'F', 'yes', '100']
 
 #Q3
-
-
-
+delete = input('Enter item to be deleted: ')
+l.remove(delete)
+print(l)
 
 
 #Q4
-
-'''l = ['iker1','iker2','iker3','iker4','iker5','iker6','iker7','iker8']
+l = ['iker1','iker2','iker3','iker4','iker5','iker6','iker7','iker8']
 x = input('Input a String: ')
 y = input('Input a new String: ')
 index = l.index(x)
 l[index] = y
-print(l)'''
+print(l)
 
 #Q5
 name = ('Cheryl','Ong')
