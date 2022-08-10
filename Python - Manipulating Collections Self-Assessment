@@ -1,1 +1,9 @@
+#Cheryl Ong
+#10/08/2022
 
+tuple=(4,1,2,3,5,7,9,0,-1,4,5,9)
+revtuple=tuple[::-1]
+lst=[]
+for i in range(0,10,4):
+    lst.append((revtuple[i:i+4]))
+print(lst[::-1])
