@@ -17,9 +17,41 @@
 
 
 #Activity 7
-
+a = ["a", "bc", "rye", "hello", "c", ""]
+new=[]
+for i in range(len(list)):
+  if len(list[i])>2:
+    new+=[list[i]]
+print(new)
 
 #Activity 8
-
+freq_count = {"hello":4,"world":4,"I":1,"am": 2,"Martha:"3"}
 
 #Activity 9
+Set = {"2","4","6","8","10"}
+finalSet = Set.copy()
+value = input("Enter a value:").lower()
+op = input(" "Add" or "remove" :").lower()
+while command !="quit":
+    if op == "add":
+        if value in Set:
+            print("value already in set")
+        else:
+            Set.add(value)
+    if command == "remove":
+        if value in Set:
+            Set.remove(value)
+        else:
+            print("value not in set")
+    value = input("Enter a value: ").lower()
+    command = input(" "Add" or "remove" :").lower()
+
+print("The orignial set: ",Set)
+print("The updated set: ", finalSet)
+for i in Set:
+    if i not in finalSet:
+        diff.add(i)
+for i in finalSet:
+    if i not in Set:
+        diff.add(i)
+print("The difference in the 2 sets is: ",diff)
