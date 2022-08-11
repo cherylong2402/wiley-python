@@ -1,0 +1,23 @@
+CLASS
+A class is a user-defined blueprint or prototype from which objects are created.
+Creating a new class creates a new type of object, allowing new instances of that type to be made.
+Class creates a user-defined data structure, which holds its own data members
+
+class definitions begin with a class keyword.
+
+eg
+class MyNewClass:
+    '''This is a docstring. I have created a new class'''
+    pass
+
+OBJECT
+An Object is an instance of a Class.
+You can have many classes to create many different instances(objects), but without the class as a guide, you would be lost, not knowing what information is required.
+
+All the instances(objects) share the attributes and the behavior of the class. 
+But the values of those attributes are unique for each object. A single class may have any number of instances(objects).
+
+
+An object is simply a collection of data (variables) and methods (functions) that act on those data. 
+
+
