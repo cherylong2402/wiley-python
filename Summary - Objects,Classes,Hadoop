@@ -21,3 +21,8 @@ But the values of those attributes are unique for each object. A single class ma
 An object is simply a collection of data (variables) and methods (functions) that act on those data. 
 
 
+HADOOP
+The design of HDFS(Hadoop Distributed File System) is based on GFS, the Google File System
+HDFS holds a large amount of data and provides transparent access to many clients dis‐tributed across a network.
+HDFS is designed to store a lot of information, typically petabytes(for very large files), gigabytes, and terabytes.
+HDFS ensures reliability by replicating blocks and distributing the replicas across the cluster
