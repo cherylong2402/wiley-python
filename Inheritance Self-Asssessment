@@ -1,1 +1,49 @@
+#Cheryl Ong
+#12/08/2022
 
+
+ONE
+class FileItem:
+    permissions=""
+    owner=""
+    size=""
+    def __init__(self,per,own,size): 
+        self.permissions=per
+        self.own=owner
+        self.size=size
+    def display(self):
+        print("Permissions:"+self.permissions)
+        print("Owner:"+self.owner)
+        print("Size:"+self.size)
+
+
+TWO
+class Csvfile(FileItem):
+    ca1=None
+    ca2=None
+
+Csvfile.display()
+
+
+THREE
+class Jpgfile(FileItem):
+    ja1=None
+    ja2=None
+
+Jpgfile.display()
+
+
+FOUR
+class Mp3file(FileItem):
+    ma1=None
+    ma2=None
+
+Mp3file.display()
+
+
+CHALLENGE
+class Directory(FileItem):
+    da1=None
+    da2=None
+
+Directory.display()
