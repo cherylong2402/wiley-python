@@ -21,7 +21,7 @@ obj=cal(a,b)
 
 choice=1
 while choice!=0:
-    print("0. Exit")
+    print("0. Quit")
     print("1. Add")
     print("2. Subtraction")
     print("3. Multiplication")
@@ -36,9 +36,9 @@ while choice!=0:
     elif choice==4:
         print("Result: ",round(obj.div(),2))
     elif choice==0:
-        print("Exiting!")
+        print("Bye!Thank You")
     else:
-        print("Invalid choice!!")
+        print("Invalid")
  
  
 print()
