@@ -1,17 +1,109 @@
 #Activity 1
+class Car:
+    brand=""
+    model=""
+    year=""
+    def __init__(self,b,m,y): 
+        self.brand=b
+        self.model=m
+        self.year=y
+    def display(self):
+        print("Car brand:"+self.brand)
+        print("Car model:"+self.model)
+        print("Car year:"+self.year)
+ 
+
+class SUV(Car):
+    pass
+ 
+s = SUV("Honda","Vezel","2015")
+s.display()
+
 
 
 #Activity 2
+class SUV(Car):
+    seats=None
+    fullwheeldrive=None
+ 
+s = SUV("Honda","Vezel","2015")
+s.seats = "5"
+s.fullwheeldrive="No"
+
+print(s.seats)
+print(s.fullwheeldrive)
+s.display()
+
 
 
 #Activity 3
+class Sedan(Car):
+    pass
+ 
+se = Sedan("Ford","Mustang","1978")
+se.display()
 
+class Sedan(Car):
+    seats=None
+    fullwheeldrive=None
+ 
+se = Sedan("Ford","Mustang","1978")
+se.seats = "4"
+se.fullwheeldrive="No"
+
+print(se.seats)
+print(se.fullwheeldrive)
+se.display()
 
 #Activity 4
-
+class Car:
+    brand=""
+    model=""
+    year=""
+    def __init__(self,b,m,y): 
+        self.brand=b
+        self.model=m
+        self.year=y
+    def display(self):
+        print("Car brand:"+self.brand)
+        print("Car model:"+self.model)
+        print("Car year:"+self.year)
+ 
+class SUV(Car):
+    seats=None
+    fullwheeldrive=None
+    def __init__(self,seats,fwd,b,m,y):
+        self.brand=b
+        self.model=m
+        self.year=y
+        self.seats=seats
+        self.fullwheeldrive=fwd
+      
+    def display(self):
+        print("Seats:"+self.seats)
+        print("Fullwheeldrive:"+self.fwd)
+        print("Car brand:"+self.brand)
+        print("Car model:"+self.model)
+        print("Car year:"+self.year)
+ 
+s = SUV("5","No","Honda","Vezel","2015")
 
 #Activity 5
-
+class Luxury(Sedan):
+    Country=None
+    def __init__(self,seats,fwd,b,m,y,country):
+        Sedan.__init__(self,seats,fwd,b,m,y)
+        self.country = country
+    def display(self):
+        Sedan.display(self)
+        print("Country: " + str(self.country))
 
 #Activity 6
-
+class Turbo(Luxury):
+    Engine=None
+    def __init__(self,seats,fwd,b,m,y,country,engine):
+        Luxury.__init__(self,seats,fwd,b,m,y,country)
+        self.engine=engine
+    def display(self):
+        Luxury.display(self)
+        print("Engine: " + str(self.engine))
